@@ -1,4 +1,4 @@
-#include "monty"
+#include "monty.h"
 /**
  * f_queue - Switches the stack mode to queue.
  * @head: Pointer to the head of the stack
@@ -11,6 +11,8 @@ void f_queue(stack_t **head, unsigned int counter)
 	(void)head;
 	(void)counter;
 	bus.lifi = 1;
+}
+
 /**
  * addqueue - Adds a node to the tail of the stack.
  * @n: New value to be added
